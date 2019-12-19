@@ -1,0 +1,17 @@
+push 1
+popr ax 
+label_3:
+pushr ax 
+pushr ax 
+mul 
+out 
+pushr ax 
+push 1
+add 
+popr ax 
+pushr ax 
+push 11
+je label_1:
+
+jmp label_3:
+

@@ -1,0 +1,20 @@
+{
+	Theurgy unmoved_mover { } {
+		Idea r 
+		Let r 7
+		Let r Ritual fact { r }
+		Write r
+		Thanks
+	}
+
+	Theurgy fact { n } {
+		Idea r 
+		Criterion n more 1 {
+			Let r Ritual fact { n without 1 } 
+			Let r r times n
+			Catharsis r 
+		} {
+			Catharsis 1 
+		}
+	}
+}

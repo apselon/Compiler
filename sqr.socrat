@@ -1,0 +1,47 @@
+{
+	Theurgy solve_linear { b c } {
+		Criterion b eq 0 {
+			Catharsis 0 without 1 
+		} {
+			Catharsis 0 without c split b
+		}
+	}
+
+	Theurgy solve_square { a b c } {
+
+		Idea d
+		Idea tmp
+		Idea x1
+		Idea x2 
+
+		Criterion a eq 0 {
+			Let x1 Ritual solve_linear { b c }			
+			Let x2 x1
+				
+		} {
+			Let d b times b without 4 times a times c 
+			Criterion d more 0 {
+
+				Let x1 b without d
+				Let x1 x1 split a
+				Let x1 x1 split 2
+				Let x1 0 without x1
+				
+				Let x2 b with d
+				Let x2 x2 split a
+				Let x2 x2 split 2
+				Let x2 0 without x2
+			} { 
+				Criterion d eq 0 {
+					Let x1 0 without b split a
+					Let	x1 x1 split a
+					Let x2 0 without b split a
+					Let	x2 x2 split a
+				} {
+					Let x1 0 without 666
+					Let x2 0 without 666
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,239 @@
+digraph List {
+	node [shape="record", fontsize=15] ;
+	rankdir=TB;
+	"0x561f5ce0e9f0" [label = "{0x561f5ce0e9f0 |B |h}"]
+	"0x561f5ce0e470" [label = "{0x561f5ce0e470 |, |COMMA}"]
+	"0x561f5ce0e430" [label = "{0x561f5ce0e430 |c |Øàp[V}"]
+	"0x561f5ce0e3f0" [label = "{0x561f5ce0e3f0 |, |COMMA}"]
+	"0x561f5ce0e3b0" [label = "{0x561f5ce0e3b0 |b |Øàp[V}"]
+	"0x561f5ce0e370" [label = "{0x561f5ce0e370 |, |COMMA}"]
+	"0x561f5ce0e330" [label = "{0x561f5ce0e330 |a |Øàp[V}"]
+	"0x561f5ce0e2f0" [label = "{0x561f5ce0e2f0 |, |COMMA}"]
+	"0x561f5ce0e970" [label = "{0x561f5ce0e970 |B |h}"]
+	"0x561f5ce0e730" [label = "{0x561f5ce0e730 |fist |Øàp[V}"]
+	"0x561f5ce0e8b0" [label = "{0x561f5ce0e8b0 |, |COMMA}"]
+	"0x561f5ce0e870" [label = "{0x561f5ce0e870 |2 |Øàp[V}"]
+	"0x561f5ce0e830" [label = "{0x561f5ce0e830 |, |COMMA}"]
+	"0x561f5ce0e7f0" [label = "{0x561f5ce0e7f0 |2 |Øàp[V}"]
+	"0x561f5ce0e7b0" [label = "{0x561f5ce0e7b0 |, |COMMA}"]
+	"0x561f5ce0e770" [label = "{0x561f5ce0e770 |solve_linear |Øàp[V}"]
+	"0x561f5ce0e8f0" [label = "{0x561f5ce0e8f0 |CALL |CALL}"]
+	"0x561f5ce0e930" [label = "{0x561f5ce0e930 |= |ASSGN}"]
+	"0x561f5ce0e6f0" [label = "{0x561f5ce0e6f0 |B |h}"]
+	"0x561f5ce0e670" [label = "{0x561f5ce0e670 |0 |Øàp[V}"]
+	"0x561f5ce0e6b0" [label = "{0x561f5ce0e6b0 |RET |RETURN}"]
+	"0x561f5ce0e630" [label = "{0x561f5ce0e630 |B |h}"]
+	"0x561f5ce0e5b0" [label = "{0x561f5ce0e5b0 |second |Øàp[V}"]
+	"0x561f5ce0e5f0" [label = "{0x561f5ce0e5f0 |DEC_VAR |DEC_VAR}"]
+	"0x561f5ce0e570" [label = "{0x561f5ce0e570 |B |h}"]
+	"0x561f5ce0e4f0" [label = "{0x561f5ce0e4f0 |fist |Øàp[V}"]
+	"0x561f5ce0e530" [label = "{0x561f5ce0e530 |DEC_VAR |DEC_VAR}"]
+	"0x561f5ce0e4b0" [label = "{0x561f5ce0e4b0 |B |h}"]
+	"0x561f5ce0e2b0" [label = "{0x561f5ce0e2b0 |solve_square |Øàp[V}"]
+	"0x561f5ce0e9b0" [label = "{0x561f5ce0e9b0 |DEF |DEC_FUNC}"]
+	"0x561f5ce0e270" [label = "{0x561f5ce0e270 |B |h}"]
+	"0x561f5ce0dd30" [label = "{0x561f5ce0dd30 |, |COMMA}"]
+	"0x561f5ce0dcf0" [label = "{0x561f5ce0dcf0 |c |Øàp[V}"]
+	"0x561f5ce0dcb0" [label = "{0x561f5ce0dcb0 |, |COMMA}"]
+	"0x561f5ce0dc70" [label = "{0x561f5ce0dc70 |b |Øàp[V}"]
+	"0x561f5ce0dc30" [label = "{0x561f5ce0dc30 |, |COMMA}"]
+	"0x561f5ce0e1f0" [label = "{0x561f5ce0e1f0 |B |h}"]
+	"0x561f5ce0ddb0" [label = "{0x561f5ce0ddb0 |b |Øàp[V}"]
+	"0x561f5ce0ddf0" [label = "{0x561f5ce0ddf0 |0 |Øàp[V}"]
+	"0x561f5ce0de30" [label = "{0x561f5ce0de30 |eq |JE}"]
+	"0x561f5ce0e130" [label = "{0x561f5ce0e130 |B |h}"]
+	"0x561f5ce0dfb0" [label = "{0x561f5ce0dfb0 |0 |Øàp[V}"]
+	"0x561f5ce0dff0" [label = "{0x561f5ce0dff0 |b |Øàp[V}"]
+	"0x561f5ce0e030" [label = "{0x561f5ce0e030 |c |Øàp[V}"]
+	"0x561f5ce0e070" [label = "{0x561f5ce0e070 |split |DIV}"]
+	"0x561f5ce0e0b0" [label = "{0x561f5ce0e0b0 |without |SUB}"]
+	"0x561f5ce0e0f0" [label = "{0x561f5ce0e0f0 |RET |RETURN}"]
+	"0x561f5ce0df70" [label = "{0x561f5ce0df70 |B |h}"]
+	"0x561f5ce0df30" [label = "{0x561f5ce0df30 |B |h}"]
+	"0x561f5ce0deb0" [label = "{0x561f5ce0deb0 |1 |Øàp[V}"]
+	"0x561f5ce0def0" [label = "{0x561f5ce0def0 |RET |RETURN}"]
+	"0x561f5ce0de70" [label = "{0x561f5ce0de70 |B |h}"]
+	"0x561f5ce0e170" [label = "{0x561f5ce0e170 |C |(null)}"]
+	"0x561f5ce0e1b0" [label = "{0x561f5ce0e1b0 |IF |IF}"]
+	"0x561f5ce0dd70" [label = "{0x561f5ce0dd70 |B |h}"]
+	"0x561f5ce0dbf0" [label = "{0x561f5ce0dbf0 |solve_linear |Øàp[V}"]
+	"0x561f5ce0e230" [label = "{0x561f5ce0e230 |DEF |DEC_FUNC}"]
+	"0x561f5ce0dbb0" [label = "{0x561f5ce0dbb0 |B |h}"]
+	"0x561f5ce0db70" [label = "{0x561f5ce0db70 |START |h}"]
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0db70" -> "0x561f5ce0dbb0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0dbb0" -> "0x561f5ce0e270";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e270" -> "0x561f5ce0e9f0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e270" -> "0x561f5ce0e9b0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e9b0" -> "0x561f5ce0e2f0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e2f0" -> "0x561f5ce0e370";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e370" -> "0x561f5ce0e3f0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e3f0" -> "0x561f5ce0e470";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e3f0" -> "0x561f5ce0e430";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e370" -> "0x561f5ce0e3b0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e2f0" -> "0x561f5ce0e330";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e9b0" -> "0x561f5ce0e2b0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e2b0" -> "0x561f5ce0e4b0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e4b0" -> "0x561f5ce0e570";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e570" -> "0x561f5ce0e630";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e630" -> "0x561f5ce0e6f0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e6f0" -> "0x561f5ce0e970";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e6f0" -> "0x561f5ce0e930";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e930" -> "0x561f5ce0e730";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e930" -> "0x561f5ce0e8f0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e8f0" -> "0x561f5ce0e7b0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e7b0" -> "0x561f5ce0e830";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e830" -> "0x561f5ce0e8b0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e830" -> "0x561f5ce0e870";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e7b0" -> "0x561f5ce0e7f0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e8f0" -> "0x561f5ce0e770";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e630" -> "0x561f5ce0e6b0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e6b0" -> "0x561f5ce0e670";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e570" -> "0x561f5ce0e5f0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e5f0" -> "0x561f5ce0e5b0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e4b0" -> "0x561f5ce0e530";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e530" -> "0x561f5ce0e4f0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0dbb0" -> "0x561f5ce0e230";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e230" -> "0x561f5ce0dc30";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0dc30" -> "0x561f5ce0dcb0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0dcb0" -> "0x561f5ce0dd30";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0dcb0" -> "0x561f5ce0dcf0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0dc30" -> "0x561f5ce0dc70";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e230" -> "0x561f5ce0dbf0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0dbf0" -> "0x561f5ce0dd70";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0dd70" -> "0x561f5ce0e1f0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0dd70" -> "0x561f5ce0e1b0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e1b0" -> "0x561f5ce0de30";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0de30" -> "0x561f5ce0ddb0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0de30" -> "0x561f5ce0ddf0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e1b0" -> "0x561f5ce0e170";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e170" -> "0x561f5ce0df70";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0df70" -> "0x561f5ce0e130";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0df70" -> "0x561f5ce0e0f0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e0f0" -> "0x561f5ce0e0b0";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e0b0" -> "0x561f5ce0dfb0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e0b0" -> "0x561f5ce0e070";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0e070" -> "0x561f5ce0dff0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e070" -> "0x561f5ce0e030";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0e170" -> "0x561f5ce0de70";
+	edge [color = "#19A302"] ;
+	"0x561f5ce0de70" -> "0x561f5ce0df30";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0de70" -> "0x561f5ce0def0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+	"0x561f5ce0def0" -> "0x561f5ce0deb0";
+	edge [color = "#19A302"] ;
+	edge [color = "#C00303"] ;
+info [label = "{Size: 1001 | Error: OK}"]}

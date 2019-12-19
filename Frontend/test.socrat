@@ -1,0 +1,22 @@
+{
+	Theurgy solve_linear { b c } {
+
+		Criterion b eq 0 { 
+			Catharsis 1 
+		} {
+			Catharsis 0 without b split c
+		}
+	}
+
+	Theurgy solve_square { a b c } {
+
+		Idea fist
+		Idea second 
+
+		Catharsis 0 
+
+		Let fist Ritual solve_linear { 2 2 } 
+	}
+
+}
+
