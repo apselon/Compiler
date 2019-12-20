@@ -2,7 +2,7 @@
 
 namespace Operator {
 
-	const int NUM_OPS = 25;
+	const int NUM_OPS = 26;
 
 	enum types {
 		MATH,
@@ -38,6 +38,7 @@ namespace Operator {
 		NEQL  ,
 		EXIT ,
 		WRITE ,
+		READ,
 	};
 
 	const char* op_code_strs[] = {
@@ -66,6 +67,7 @@ namespace Operator {
 		"JNE", //22
 		"EXIT", //23
 		"OUT", //24
+		"IN",
 	};
 
 	const char* op_names[] = {
@@ -94,6 +96,7 @@ namespace Operator {
 		"neql", //22
 		"Thanks", //23
 		"Write", //24
+		"Read",
 	};
 
 	/*

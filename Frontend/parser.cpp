@@ -19,6 +19,7 @@ Tree::node_t* get_OP();
 Tree::node_t* get_SET_VAR();
 Tree::node_t* get_CALL();
 Tree::node_t* get_PRINT();
+Tree::node_t* get_INPUT();
 
 Tree::node_t* get_N(){
 
@@ -276,6 +277,15 @@ Tree::node_t* get_EXIT(){
 	return Tree::create_node(Operator::EXIT, Token::OP, "EXIT", NULL, NULL);
 }
 
+Tree::node_t* get_INPUT(){
+
+	Assert(cur++->op_code == Operator::READ);
+
+	Tree::node_t* val = get_ID();
+
+	return Tree::create_node(Operator::READ, Token::OP, "IN", NULL, val);
+}
+
 Tree::node_t* get_OP(){
 
 	Tree::node_t* val = {};
@@ -310,6 +320,10 @@ Tree::node_t* get_OP(){
 			break;
 		case Operator::EXIT:
 			val = get_EXIT();
+			break;
+		case Operator::READ:
+			val = get_INPUT();
+			break;
 		default:
 			printf("OP %d (%s) can not be parsed\n", cur->op_code, Operator::op_code_strs[cur->op_code]);
 			break;

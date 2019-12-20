@@ -177,12 +177,13 @@ void gen_IF(Tree::node_t* cur){
 	printf("LINE %d\n", __LINE__);
 	Assert(cur != NULL);
 
-	++cur_if;
+	int remember_if = cur_if;
 	gen_COND(cur->left);
+	++cur_if;
 	fprintf(output, "\n");	
-	fprintf(output, "true_if_%d: \n", cur_if);
+	fprintf(output, "true_if_%d: \n", remember_if);
 	gen_BODY(cur->right->right);
-	fprintf(output, "false_if_%d: \n", cur_if);
+	fprintf(output, "false_if_%d: \n", remember_if);
 	gen_BODY(cur->right->left);
 	//fprintf(output, ":end_if_%d \n", cur_if);
 	printf("LINE %d\n", __LINE__);
@@ -203,6 +204,25 @@ void gen_EXIT(Tree::node_t* cur){
 	Assert(cur != NULL);
 	Assert(cur->data.op_code == Operator::EXIT);
 	fprintf(output, "jmp quit \n");
+}
+
+void gen_SQRT(Tree::node_t* cur){
+
+	Assert(cur != NULL);
+	Assert(cur->data.op_code == Operator::SQRT);
+
+	fprintf(output, "pushm [ax + %d] \n", get_var_id(trans_glob::locals, cur->right->data.lexem));
+	fprintf(output, "sqrt \n");
+	fprintf(output, "popm [ax + %d] \n", get_var_id(trans_glob::locals, cur->right->data.lexem));
+}
+
+void gen_INPUT(Tree::node_t* cur){
+
+	Assert(cur != NULL);
+	Assert(cur->data.op_code == Operator::READ);
+
+	fprintf(output, "in \n");
+	fprintf(output, "popm [ax + %d] \n", get_var_id(trans_glob::locals, cur->right->data.lexem));
 }
 
 void gen_OP(Tree::node_t* cur){
@@ -232,7 +252,12 @@ void gen_OP(Tree::node_t* cur){
 		case Operator::EXIT:
 			gen_EXIT(cur);
 			break;
-
+		case Operator::READ:
+			gen_INPUT(cur);
+			break;
+		case Operator::SQRT:
+			gen_SQRT(cur);
+			break;
 		default:
 			printf("!!!\n");
 			break;

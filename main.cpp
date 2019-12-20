@@ -12,7 +12,7 @@ int main(int argc, char* argv[]){
 
 	Tree::tree_t* AST = generated_AST(text);
 
-	Tree::draw(AST, 1);
+//	Tree::draw(AST, 1);
 		
 	gen_BODY(AST->root->right);
 
