@@ -13,15 +13,6 @@
 		Thanks 
 	}
 
-	Theurgy solve_linear { b c } {
-		Criterion b eq 0 {
-			Write 666
-			Catharsis 0
-		} {
-			Write 0 without c split b
-			Catharsis 0 
-		}
-	}
 
 
 	Theurgy solve_square { a b c } {
@@ -73,6 +64,16 @@
 					Catharsis 0
 				}
 			}
+		}
+	}
+
+	Theurgy solve_linear { b c } {
+		Criterion b eq 0 {
+			Write 666
+			Catharsis 0
+		} {
+			Write 0 without c split b
+			Catharsis 0 
 		}
 	}
 }

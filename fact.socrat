@@ -1,20 +1,19 @@
-{
-	Theurgy unmoved_mover { } {
-		Idea r 
-		Read r 
-		Let r Ritual fact { r }
-		Write r
+Obviously, Theurgy unmoved_mover indeed, hence. 
+	definetly, Idea Plato Idea Aristotle
+		Read Plato 
+		Let Aristotle Ritual fact indeed, Plato overall.
+		Write Aristotle 
 		Thanks
-	}
+	overall.
 
-	Theurgy fact { n } {
-		Idea r 
-		Criterion n more 1 {
-			Let r Ritual fact { n without 1 } 
-			Let r r times n
-			Catharsis r 
-		} {
+	Theurgy fact obviously, Dichotomy overall. also,
+		Idea Socrates 
+		Criterion Dichotomy more 1 indeed,
+			Let Socrates Ritual fact obviously, Dichotomy without 1 nevertheless.
+			Let Socrates Socrates times Dichotomy
+			Catharsis Socrates 
+		hence. also,
 			Catharsis 1 
-		}
-	}
-}
+		nevertheless.
+	overall.
+hence.

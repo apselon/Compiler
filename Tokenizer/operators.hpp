@@ -3,6 +3,7 @@
 namespace Operator {
 
 	const int NUM_OPS = 26;
+	const int NUM_BRACKS = 4;
 
 	enum types {
 		MATH,
@@ -97,6 +98,20 @@ namespace Operator {
 		"Thanks", //23
 		"Write", //24
 		"Read",
+	};
+
+	const char* o_brack_names[] = {
+		"ideed,",
+		"obviously,",
+		"definetly,",
+		"also,"
+	};
+
+	const char* c_brack_names[] = {
+		"overall.",
+		"hence.",
+		"nevertheless.",
+		"whereas.",
 	};
 
 	/*

@@ -47,6 +47,16 @@ Operator::op_codes get_opcode(const char* lexem){
 		}
 	}
 
+	for (int i = 0; i < Operator::NUM_BRACKS; ++i){
+		if (strcmp(lexem, Operator::o_brack_names[i]) == 0){
+			return Operator::O_BRACK;
+		}
+
+		if (strcmp(lexem, Operator::c_brack_names[i]) == 0){
+			return Operator::C_BRACK;
+		}
+	}
+
 	return Operator::NOT_OP;
 }
 

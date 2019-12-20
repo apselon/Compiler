@@ -1,899 +1,279 @@
 digraph List {
 	node [shape="record", fontsize=15] ;
 	rankdir=TB;
-	"0x556fa3443660" [label = "{0x556fa3443660 |B |(null)}"]
-	"0x556fa3441020" [label = "{0x556fa3441020 |, |COMMA}"]
-	"0x556fa3440fe0" [label = "{0x556fa3440fe0 |c |C™oU}"]
-	"0x556fa3440fa0" [label = "{0x556fa3440fa0 |, |COMMA}"]
-	"0x556fa3440f60" [label = "{0x556fa3440f60 |b |C™oU}"]
-	"0x556fa3440f20" [label = "{0x556fa3440f20 |, |COMMA}"]
-	"0x556fa3440ee0" [label = "{0x556fa3440ee0 |a |C™oU}"]
-	"0x556fa3440ea0" [label = "{0x556fa3440ea0 |, |COMMA}"]
-	"0x556fa34435e0" [label = "{0x556fa34435e0 |B |(null)}"]
-	"0x556fa34413a0" [label = "{0x556fa34413a0 |a |C™oU}"]
-	"0x556fa34413e0" [label = "{0x556fa34413e0 |0 |C™oU}"]
-	"0x556fa3441420" [label = "{0x556fa3441420 |eq |JE}"]
-	"0x556fa3443520" [label = "{0x556fa3443520 |B |(null)}"]
-	"0x556fa3441b60" [label = "{0x556fa3441b60 |d |C™oU}"]
-	"0x556fa3441ba0" [label = "{0x556fa3441ba0 |0 |C™oU}"]
-	"0x556fa3441be0" [label = "{0x556fa3441be0 |more |JA}"]
-	"0x556fa3443460" [label = "{0x556fa3443460 |B |(null)}"]
-	"0x556fa34428a0" [label = "{0x556fa34428a0 |d |C™oU}"]
-	"0x556fa34428e0" [label = "{0x556fa34428e0 |0 |C™oU}"]
-	"0x556fa3442920" [label = "{0x556fa3442920 |eq |JE}"]
-	"0x556fa34433a0" [label = "{0x556fa34433a0 |B |(null)}"]
-	"0x556fa3443260" [label = "{0x556fa3443260 |x2 |C™oU}"]
-	"0x556fa34432a0" [label = "{0x556fa34432a0 |0 |C™oU}"]
-	"0x556fa34432e0" [label = "{0x556fa34432e0 |666 |C™oU}"]
-	"0x556fa3443320" [label = "{0x556fa3443320 |without |SUB}"]
-	"0x556fa3443360" [label = "{0x556fa3443360 |= |ASSGN}"]
-	"0x556fa3443220" [label = "{0x556fa3443220 |B |(null)}"]
-	"0x556fa34430e0" [label = "{0x556fa34430e0 |x1 |C™oU}"]
-	"0x556fa3443120" [label = "{0x556fa3443120 |0 |C™oU}"]
-	"0x556fa3443160" [label = "{0x556fa3443160 |666 |C™oU}"]
-	"0x556fa34431a0" [label = "{0x556fa34431a0 |without |SUB}"]
-	"0x556fa34431e0" [label = "{0x556fa34431e0 |= |ASSGN}"]
-	"0x556fa34430a0" [label = "{0x556fa34430a0 |B |(null)}"]
-	"0x556fa3443060" [label = "{0x556fa3443060 |B |(null)}"]
-	"0x556fa3442f20" [label = "{0x556fa3442f20 |x2 |C™oU}"]
-	"0x556fa3442f60" [label = "{0x556fa3442f60 |x2 |C™oU}"]
-	"0x556fa3442fa0" [label = "{0x556fa3442fa0 |a |C™oU}"]
-	"0x556fa3442fe0" [label = "{0x556fa3442fe0 |split |DIV}"]
-	"0x556fa3443020" [label = "{0x556fa3443020 |= |ASSGN}"]
-	"0x556fa3442ee0" [label = "{0x556fa3442ee0 |B |(null)}"]
-	"0x556fa3442d20" [label = "{0x556fa3442d20 |x2 |C™oU}"]
-	"0x556fa3442d60" [label = "{0x556fa3442d60 |0 |C™oU}"]
-	"0x556fa3442da0" [label = "{0x556fa3442da0 |b |C™oU}"]
-	"0x556fa3442de0" [label = "{0x556fa3442de0 |a |C™oU}"]
-	"0x556fa3442e20" [label = "{0x556fa3442e20 |split |DIV}"]
-	"0x556fa3442e60" [label = "{0x556fa3442e60 |without |SUB}"]
-	"0x556fa3442ea0" [label = "{0x556fa3442ea0 |= |ASSGN}"]
-	"0x556fa3442ce0" [label = "{0x556fa3442ce0 |B |(null)}"]
-	"0x556fa3442ba0" [label = "{0x556fa3442ba0 |x1 |C™oU}"]
-	"0x556fa3442be0" [label = "{0x556fa3442be0 |x1 |C™oU}"]
-	"0x556fa3442c20" [label = "{0x556fa3442c20 |a |C™oU}"]
-	"0x556fa3442c60" [label = "{0x556fa3442c60 |split |DIV}"]
-	"0x556fa3442ca0" [label = "{0x556fa3442ca0 |= |ASSGN}"]
-	"0x556fa3442b60" [label = "{0x556fa3442b60 |B |(null)}"]
-	"0x556fa34429a0" [label = "{0x556fa34429a0 |x1 |C™oU}"]
-	"0x556fa34429e0" [label = "{0x556fa34429e0 |0 |C™oU}"]
-	"0x556fa3442a20" [label = "{0x556fa3442a20 |b |C™oU}"]
-	"0x556fa3442a60" [label = "{0x556fa3442a60 |a |C™oU}"]
-	"0x556fa3442aa0" [label = "{0x556fa3442aa0 |split |DIV}"]
-	"0x556fa3442ae0" [label = "{0x556fa3442ae0 |without |SUB}"]
-	"0x556fa3442b20" [label = "{0x556fa3442b20 |= |ASSGN}"]
-	"0x556fa3442960" [label = "{0x556fa3442960 |B |(null)}"]
-	"0x556fa34433e0" [label = "{0x556fa34433e0 |C |(null)}"]
-	"0x556fa3443420" [label = "{0x556fa3443420 |IF |IF}"]
-	"0x556fa3442860" [label = "{0x556fa3442860 |B |(null)}"]
-	"0x556fa3442820" [label = "{0x556fa3442820 |B |(null)}"]
-	"0x556fa34426e0" [label = "{0x556fa34426e0 |x2 |C™oU}"]
-	"0x556fa3442720" [label = "{0x556fa3442720 |0 |C™oU}"]
-	"0x556fa3442760" [label = "{0x556fa3442760 |x2 |C™oU}"]
-	"0x556fa34427a0" [label = "{0x556fa34427a0 |without |SUB}"]
-	"0x556fa34427e0" [label = "{0x556fa34427e0 |= |ASSGN}"]
-	"0x556fa34426a0" [label = "{0x556fa34426a0 |B |(null)}"]
-	"0x556fa3442560" [label = "{0x556fa3442560 |x2 |C™oU}"]
-	"0x556fa34425a0" [label = "{0x556fa34425a0 |x2 |C™oU}"]
-	"0x556fa34425e0" [label = "{0x556fa34425e0 |2 |C™oU}"]
-	"0x556fa3442620" [label = "{0x556fa3442620 |split |DIV}"]
-	"0x556fa3442660" [label = "{0x556fa3442660 |= |ASSGN}"]
-	"0x556fa3442520" [label = "{0x556fa3442520 |B |(null)}"]
-	"0x556fa34423e0" [label = "{0x556fa34423e0 |x2 |C™oU}"]
-	"0x556fa3442420" [label = "{0x556fa3442420 |x2 |C™oU}"]
-	"0x556fa3442460" [label = "{0x556fa3442460 |a |C™oU}"]
-	"0x556fa34424a0" [label = "{0x556fa34424a0 |split |DIV}"]
-	"0x556fa34424e0" [label = "{0x556fa34424e0 |= |ASSGN}"]
-	"0x556fa34423a0" [label = "{0x556fa34423a0 |B |(null)}"]
-	"0x556fa3442260" [label = "{0x556fa3442260 |x2 |C™oU}"]
-	"0x556fa34422a0" [label = "{0x556fa34422a0 |b |C™oU}"]
-	"0x556fa34422e0" [label = "{0x556fa34422e0 |d |C™oU}"]
-	"0x556fa3442320" [label = "{0x556fa3442320 |with |ADD}"]
-	"0x556fa3442360" [label = "{0x556fa3442360 |= |ASSGN}"]
-	"0x556fa3442220" [label = "{0x556fa3442220 |B |(null)}"]
-	"0x556fa34420e0" [label = "{0x556fa34420e0 |x1 |C™oU}"]
-	"0x556fa3442120" [label = "{0x556fa3442120 |0 |C™oU}"]
-	"0x556fa3442160" [label = "{0x556fa3442160 |x1 |C™oU}"]
-	"0x556fa34421a0" [label = "{0x556fa34421a0 |without |SUB}"]
-	"0x556fa34421e0" [label = "{0x556fa34421e0 |= |ASSGN}"]
-	"0x556fa34420a0" [label = "{0x556fa34420a0 |B |(null)}"]
-	"0x556fa3441f60" [label = "{0x556fa3441f60 |x1 |C™oU}"]
-	"0x556fa3441fa0" [label = "{0x556fa3441fa0 |x1 |C™oU}"]
-	"0x556fa3441fe0" [label = "{0x556fa3441fe0 |2 |C™oU}"]
-	"0x556fa3442020" [label = "{0x556fa3442020 |split |DIV}"]
-	"0x556fa3442060" [label = "{0x556fa3442060 |= |ASSGN}"]
-	"0x556fa3441f20" [label = "{0x556fa3441f20 |B |(null)}"]
-	"0x556fa3441de0" [label = "{0x556fa3441de0 |x1 |C™oU}"]
-	"0x556fa3441e20" [label = "{0x556fa3441e20 |x1 |C™oU}"]
-	"0x556fa3441e60" [label = "{0x556fa3441e60 |a |C™oU}"]
-	"0x556fa3441ea0" [label = "{0x556fa3441ea0 |split |DIV}"]
-	"0x556fa3441ee0" [label = "{0x556fa3441ee0 |= |ASSGN}"]
-	"0x556fa3441da0" [label = "{0x556fa3441da0 |B |(null)}"]
-	"0x556fa3441c60" [label = "{0x556fa3441c60 |x1 |C™oU}"]
-	"0x556fa3441ca0" [label = "{0x556fa3441ca0 |b |C™oU}"]
-	"0x556fa3441ce0" [label = "{0x556fa3441ce0 |d |C™oU}"]
-	"0x556fa3441d20" [label = "{0x556fa3441d20 |without |SUB}"]
-	"0x556fa3441d60" [label = "{0x556fa3441d60 |= |ASSGN}"]
-	"0x556fa3441c20" [label = "{0x556fa3441c20 |B |(null)}"]
-	"0x556fa34434a0" [label = "{0x556fa34434a0 |C |(null)}"]
-	"0x556fa34434e0" [label = "{0x556fa34434e0 |IF |IF}"]
-	"0x556fa3441b20" [label = "{0x556fa3441b20 |B |(null)}"]
-	"0x556fa3441860" [label = "{0x556fa3441860 |d |C™oU}"]
-	"0x556fa34418a0" [label = "{0x556fa34418a0 |b |C™oU}"]
-	"0x556fa34418e0" [label = "{0x556fa34418e0 |b |C™oU}"]
-	"0x556fa3441920" [label = "{0x556fa3441920 |times |MUL}"]
-	"0x556fa3441960" [label = "{0x556fa3441960 |4 |C™oU}"]
-	"0x556fa34419a0" [label = "{0x556fa34419a0 |a |C™oU}"]
-	"0x556fa34419e0" [label = "{0x556fa34419e0 |times |MUL}"]
-	"0x556fa3441a20" [label = "{0x556fa3441a20 |c |C™oU}"]
-	"0x556fa3441a60" [label = "{0x556fa3441a60 |times |MUL}"]
-	"0x556fa3441aa0" [label = "{0x556fa3441aa0 |without |SUB}"]
-	"0x556fa3441ae0" [label = "{0x556fa3441ae0 |= |ASSGN}"]
-	"0x556fa3441820" [label = "{0x556fa3441820 |B |(null)}"]
-	"0x556fa34417e0" [label = "{0x556fa34417e0 |B |(null)}"]
-	"0x556fa3441720" [label = "{0x556fa3441720 |x2 |C™oU}"]
-	"0x556fa3441760" [label = "{0x556fa3441760 |x1 |C™oU}"]
-	"0x556fa34417a0" [label = "{0x556fa34417a0 |= |ASSGN}"]
-	"0x556fa34416e0" [label = "{0x556fa34416e0 |B |(null)}"]
-	"0x556fa34414a0" [label = "{0x556fa34414a0 |x1 |C™oU}"]
-	"0x556fa3441620" [label = "{0x556fa3441620 |, |COMMA}"]
-	"0x556fa34415e0" [label = "{0x556fa34415e0 |c |C™oU}"]
-	"0x556fa34415a0" [label = "{0x556fa34415a0 |, |COMMA}"]
-	"0x556fa3441560" [label = "{0x556fa3441560 |b |C™oU}"]
-	"0x556fa3441520" [label = "{0x556fa3441520 |, |COMMA}"]
-	"0x556fa34414e0" [label = "{0x556fa34414e0 |solve_linear |C™oU}"]
-	"0x556fa3441660" [label = "{0x556fa3441660 |CALL |CALL}"]
-	"0x556fa34416a0" [label = "{0x556fa34416a0 |= |ASSGN}"]
-	"0x556fa3441460" [label = "{0x556fa3441460 |B |(null)}"]
-	"0x556fa3443560" [label = "{0x556fa3443560 |C |(null)}"]
-	"0x556fa34435a0" [label = "{0x556fa34435a0 |IF |IF}"]
-	"0x556fa3441360" [label = "{0x556fa3441360 |B |(null)}"]
-	"0x556fa34412e0" [label = "{0x556fa34412e0 |x2 |C™oU}"]
-	"0x556fa3441320" [label = "{0x556fa3441320 |DEC_VAR |DEC_VAR}"]
-	"0x556fa34412a0" [label = "{0x556fa34412a0 |B |(null)}"]
-	"0x556fa3441220" [label = "{0x556fa3441220 |x1 |C™oU}"]
-	"0x556fa3441260" [label = "{0x556fa3441260 |DEC_VAR |DEC_VAR}"]
-	"0x556fa34411e0" [label = "{0x556fa34411e0 |B |(null)}"]
-	"0x556fa3441160" [label = "{0x556fa3441160 |tmp |C™oU}"]
-	"0x556fa34411a0" [label = "{0x556fa34411a0 |DEC_VAR |DEC_VAR}"]
-	"0x556fa3441120" [label = "{0x556fa3441120 |B |(null)}"]
-	"0x556fa34410a0" [label = "{0x556fa34410a0 |d |C™oU}"]
-	"0x556fa34410e0" [label = "{0x556fa34410e0 |DEC_VAR |DEC_VAR}"]
-	"0x556fa3441060" [label = "{0x556fa3441060 |B |(null)}"]
-	"0x556fa3440e60" [label = "{0x556fa3440e60 |solve_square |C™oU}"]
-	"0x556fa3443620" [label = "{0x556fa3443620 |DEF |DEC_FUNC}"]
-	"0x556fa3440e20" [label = "{0x556fa3440e20 |B |(null)}"]
-	"0x556fa3440560" [label = "{0x556fa3440560 |, |COMMA}"]
-	"0x556fa3440520" [label = "{0x556fa3440520 |c |C™oU}"]
-	"0x556fa34404e0" [label = "{0x556fa34404e0 |, |COMMA}"]
-	"0x556fa34404a0" [label = "{0x556fa34404a0 |b |C™oU}"]
-	"0x556fa3440460" [label = "{0x556fa3440460 |, |COMMA}"]
-	"0x556fa3440da0" [label = "{0x556fa3440da0 |B |(null)}"]
-	"0x556fa34405e0" [label = "{0x556fa34405e0 |b |C™oU}"]
-	"0x556fa3440620" [label = "{0x556fa3440620 |0 |C™oU}"]
-	"0x556fa3440660" [label = "{0x556fa3440660 |eq |JE}"]
-	"0x556fa3440ce0" [label = "{0x556fa3440ce0 |B |(null)}"]
-	"0x556fa3440b60" [label = "{0x556fa3440b60 |0 |C™oU}"]
-	"0x556fa3440ba0" [label = "{0x556fa3440ba0 |c |C™oU}"]
-	"0x556fa3440be0" [label = "{0x556fa3440be0 |b |C™oU}"]
-	"0x556fa3440c20" [label = "{0x556fa3440c20 |split |DIV}"]
-	"0x556fa3440c60" [label = "{0x556fa3440c60 |without |SUB}"]
-	"0x556fa3440ca0" [label = "{0x556fa3440ca0 |RET |RETURN}"]
-	"0x556fa3440b20" [label = "{0x556fa3440b20 |B |(null)}"]
-	"0x556fa34409a0" [label = "{0x556fa34409a0 |0 |C™oU}"]
-	"0x556fa34409e0" [label = "{0x556fa34409e0 |c |C™oU}"]
-	"0x556fa3440a20" [label = "{0x556fa3440a20 |b |C™oU}"]
-	"0x556fa3440a60" [label = "{0x556fa3440a60 |split |DIV}"]
-	"0x556fa3440aa0" [label = "{0x556fa3440aa0 |without |SUB}"]
-	"0x556fa3440ae0" [label = "{0x556fa3440ae0 |OUT |OUT}"]
-	"0x556fa3440960" [label = "{0x556fa3440960 |B |(null)}"]
-	"0x556fa3440920" [label = "{0x556fa3440920 |B |(null)}"]
-	"0x556fa3440820" [label = "{0x556fa3440820 |0 |C™oU}"]
-	"0x556fa3440860" [label = "{0x556fa3440860 |1 |C™oU}"]
-	"0x556fa34408a0" [label = "{0x556fa34408a0 |without |SUB}"]
-	"0x556fa34408e0" [label = "{0x556fa34408e0 |RET |RETURN}"]
-	"0x556fa34407e0" [label = "{0x556fa34407e0 |B |(null)}"]
-	"0x556fa34406e0" [label = "{0x556fa34406e0 |0 |C™oU}"]
-	"0x556fa3440720" [label = "{0x556fa3440720 |1 |C™oU}"]
-	"0x556fa3440760" [label = "{0x556fa3440760 |without |SUB}"]
-	"0x556fa34407a0" [label = "{0x556fa34407a0 |OUT |OUT}"]
-	"0x556fa34406a0" [label = "{0x556fa34406a0 |B |(null)}"]
-	"0x556fa3440d20" [label = "{0x556fa3440d20 |C |(null)}"]
-	"0x556fa3440d60" [label = "{0x556fa3440d60 |IF |IF}"]
-	"0x556fa34405a0" [label = "{0x556fa34405a0 |B |(null)}"]
-	"0x556fa3440420" [label = "{0x556fa3440420 |solve_linear |C™oU}"]
-	"0x556fa3440de0" [label = "{0x556fa3440de0 |DEF |DEC_FUNC}"]
-	"0x556fa34403e0" [label = "{0x556fa34403e0 |B |(null)}"]
-	"0x556fa343ff60" [label = "{0x556fa343ff60 |, |COMMA}"]
-	"0x556fa3440360" [label = "{0x556fa3440360 |B |(null)}"]
-	"0x556fa3440320" [label = "{0x556fa3440320 |EXIT |EXIT}"]
-	"0x556fa34402e0" [label = "{0x556fa34402e0 |B |(null)}"]
-	"0x556fa34400a0" [label = "{0x556fa34400a0 |a |C™oU}"]
-	"0x556fa3440220" [label = "{0x556fa3440220 |, |COMMA}"]
-	"0x556fa34401e0" [label = "{0x556fa34401e0 |0 |C™oU}"]
-	"0x556fa34401a0" [label = "{0x556fa34401a0 |, |COMMA}"]
-	"0x556fa3440160" [label = "{0x556fa3440160 |0 |C™oU}"]
-	"0x556fa3440120" [label = "{0x556fa3440120 |, |COMMA}"]
-	"0x556fa34400e0" [label = "{0x556fa34400e0 |solve_linear |C™oU}"]
-	"0x556fa3440260" [label = "{0x556fa3440260 |CALL |CALL}"]
-	"0x556fa34402a0" [label = "{0x556fa34402a0 |= |ASSGN}"]
-	"0x556fa3440060" [label = "{0x556fa3440060 |B |(null)}"]
-	"0x556fa343ffe0" [label = "{0x556fa343ffe0 |a |C™oU}"]
-	"0x556fa3440020" [label = "{0x556fa3440020 |DEC_VAR |DEC_VAR}"]
-	"0x556fa343ffa0" [label = "{0x556fa343ffa0 |B |(null)}"]
-	"0x556fa343ff20" [label = "{0x556fa343ff20 |unmoved_mover |C™oU}"]
-	"0x556fa34403a0" [label = "{0x556fa34403a0 |DEF |DEC_FUNC}"]
-	"0x556fa343fee0" [label = "{0x556fa343fee0 |B |(null)}"]
-	"0x556fa343fea0" [label = "{0x556fa343fea0 |START |(null)}"]
+	"0x56099c72cfd0" [label = "{0x56099c72cfd0 |B |(null)}"]
+	"0x56099c72c6d0" [label = "{0x56099c72c6d0 |, |COMMA}"]
+	"0x56099c72c690" [label = "{0x56099c72c690 |Dichotomy |¡Ì“	V}"]
+	"0x56099c72c650" [label = "{0x56099c72c650 |, |COMMA}"]
+	"0x56099c72cf50" [label = "{0x56099c72cf50 |B |(null)}"]
+	"0x56099c72c810" [label = "{0x56099c72c810 |Dichotomy |¡Ì“	V}"]
+	"0x56099c72c850" [label = "{0x56099c72c850 |1 |¡Ì“	V}"]
+	"0x56099c72c890" [label = "{0x56099c72c890 |more |JA}"]
+	"0x56099c72ce90" [label = "{0x56099c72ce90 |B |(null)}"]
+	"0x56099c72ce10" [label = "{0x56099c72ce10 |1 |¡Ì“	V}"]
+	"0x56099c72ce50" [label = "{0x56099c72ce50 |RET |RETURN}"]
+	"0x56099c72cdd0" [label = "{0x56099c72cdd0 |B |(null)}"]
+	"0x56099c72cd90" [label = "{0x56099c72cd90 |B |(null)}"]
+	"0x56099c72cd10" [label = "{0x56099c72cd10 |Socrates |¡Ì“	V}"]
+	"0x56099c72cd50" [label = "{0x56099c72cd50 |RET |RETURN}"]
+	"0x56099c72ccd0" [label = "{0x56099c72ccd0 |B |(null)}"]
+	"0x56099c72cb90" [label = "{0x56099c72cb90 |Socrates |¡Ì“	V}"]
+	"0x56099c72cbd0" [label = "{0x56099c72cbd0 |Socrates |¡Ì“	V}"]
+	"0x56099c72cc10" [label = "{0x56099c72cc10 |Dichotomy |¡Ì“	V}"]
+	"0x56099c72cc50" [label = "{0x56099c72cc50 |times |MUL}"]
+	"0x56099c72cc90" [label = "{0x56099c72cc90 |= |ASSGN}"]
+	"0x56099c72cb50" [label = "{0x56099c72cb50 |B |(null)}"]
+	"0x56099c72c910" [label = "{0x56099c72c910 |Socrates |¡Ì“	V}"]
+	"0x56099c72ca90" [label = "{0x56099c72ca90 |, |COMMA}"]
+	"0x56099c72c9d0" [label = "{0x56099c72c9d0 |Dichotomy |¡Ì“	V}"]
+	"0x56099c72ca10" [label = "{0x56099c72ca10 |1 |¡Ì“	V}"]
+	"0x56099c72ca50" [label = "{0x56099c72ca50 |without |SUB}"]
+	"0x56099c72c990" [label = "{0x56099c72c990 |, |COMMA}"]
+	"0x56099c72c950" [label = "{0x56099c72c950 |fact |¡Ì“	V}"]
+	"0x56099c72cad0" [label = "{0x56099c72cad0 |CALL |CALL}"]
+	"0x56099c72cb10" [label = "{0x56099c72cb10 |= |ASSGN}"]
+	"0x56099c72c8d0" [label = "{0x56099c72c8d0 |B |(null)}"]
+	"0x56099c72ced0" [label = "{0x56099c72ced0 |C |(null)}"]
+	"0x56099c72cf10" [label = "{0x56099c72cf10 |IF |IF}"]
+	"0x56099c72c7d0" [label = "{0x56099c72c7d0 |B |(null)}"]
+	"0x56099c72c750" [label = "{0x56099c72c750 |Socrates |¡Ì“	V}"]
+	"0x56099c72c790" [label = "{0x56099c72c790 |DEC_VAR |DEC_VAR}"]
+	"0x56099c72c710" [label = "{0x56099c72c710 |B |(null)}"]
+	"0x56099c72c610" [label = "{0x56099c72c610 |fact |¡Ì“	V}"]
+	"0x56099c72cf90" [label = "{0x56099c72cf90 |DEF |DEC_FUNC}"]
+	"0x56099c72c5d0" [label = "{0x56099c72c5d0 |B |(null)}"]
+	"0x56099c72bf90" [label = "{0x56099c72bf90 |, |COMMA}"]
+	"0x56099c72c550" [label = "{0x56099c72c550 |B |(null)}"]
+	"0x56099c72c510" [label = "{0x56099c72c510 |EXIT |EXIT}"]
+	"0x56099c72c4d0" [label = "{0x56099c72c4d0 |B |(null)}"]
+	"0x56099c72c450" [label = "{0x56099c72c450 |Aristotle |¡Ì“	V}"]
+	"0x56099c72c490" [label = "{0x56099c72c490 |OUT |OUT}"]
+	"0x56099c72c410" [label = "{0x56099c72c410 |B |(null)}"]
+	"0x56099c72c250" [label = "{0x56099c72c250 |Aristotle |¡Ì“	V}"]
+	"0x56099c72c350" [label = "{0x56099c72c350 |, |COMMA}"]
+	"0x56099c72c310" [label = "{0x56099c72c310 |Plato |¡Ì“	V}"]
+	"0x56099c72c2d0" [label = "{0x56099c72c2d0 |, |COMMA}"]
+	"0x56099c72c290" [label = "{0x56099c72c290 |fact |¡Ì“	V}"]
+	"0x56099c72c390" [label = "{0x56099c72c390 |CALL |CALL}"]
+	"0x56099c72c3d0" [label = "{0x56099c72c3d0 |= |ASSGN}"]
+	"0x56099c72c210" [label = "{0x56099c72c210 |B |(null)}"]
+	"0x56099c72c190" [label = "{0x56099c72c190 |Plato |¡Ì“	V}"]
+	"0x56099c72c1d0" [label = "{0x56099c72c1d0 |IN |IN}"]
+	"0x56099c72c150" [label = "{0x56099c72c150 |B |(null)}"]
+	"0x56099c72c0d0" [label = "{0x56099c72c0d0 |Aristotle |¡Ì“	V}"]
+	"0x56099c72c110" [label = "{0x56099c72c110 |DEC_VAR |DEC_VAR}"]
+	"0x56099c72c090" [label = "{0x56099c72c090 |B |(null)}"]
+	"0x56099c72c010" [label = "{0x56099c72c010 |Plato |¡Ì“	V}"]
+	"0x56099c72c050" [label = "{0x56099c72c050 |DEC_VAR |DEC_VAR}"]
+	"0x56099c72bfd0" [label = "{0x56099c72bfd0 |B |(null)}"]
+	"0x56099c72bf50" [label = "{0x56099c72bf50 |unmoved_mover |¡Ì“	V}"]
+	"0x56099c72c590" [label = "{0x56099c72c590 |DEF |DEC_FUNC}"]
+	"0x56099c72bf10" [label = "{0x56099c72bf10 |B |(null)}"]
+	"0x56099c72bed0" [label = "{0x56099c72bed0 |START |(null)}"]
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa343fea0" -> "0x556fa343fee0";
+	"0x56099c72bed0" -> "0x56099c72bf10";
 	edge [color = "#19A302"] ;
-	"0x556fa343fee0" -> "0x556fa34403e0";
+	"0x56099c72bf10" -> "0x56099c72c5d0";
 	edge [color = "#19A302"] ;
-	"0x556fa34403e0" -> "0x556fa3440e20";
+	"0x56099c72c5d0" -> "0x56099c72cfd0";
 	edge [color = "#19A302"] ;
-	"0x556fa3440e20" -> "0x556fa3443660";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440e20" -> "0x556fa3443620";
-	edge [color = "#19A302"] ;
-	"0x556fa3443620" -> "0x556fa3440ea0";
-	edge [color = "#19A302"] ;
-	"0x556fa3440ea0" -> "0x556fa3440f20";
-	edge [color = "#19A302"] ;
-	"0x556fa3440f20" -> "0x556fa3440fa0";
-	edge [color = "#19A302"] ;
-	"0x556fa3440fa0" -> "0x556fa3441020";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440fa0" -> "0x556fa3440fe0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440f20" -> "0x556fa3440f60";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440ea0" -> "0x556fa3440ee0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3443620" -> "0x556fa3440e60";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440e60" -> "0x556fa3441060";
-	edge [color = "#19A302"] ;
-	"0x556fa3441060" -> "0x556fa3441120";
-	edge [color = "#19A302"] ;
-	"0x556fa3441120" -> "0x556fa34411e0";
-	edge [color = "#19A302"] ;
-	"0x556fa34411e0" -> "0x556fa34412a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34412a0" -> "0x556fa3441360";
-	edge [color = "#19A302"] ;
-	"0x556fa3441360" -> "0x556fa34435e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441360" -> "0x556fa34435a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34435a0" -> "0x556fa3441420";
-	edge [color = "#19A302"] ;
-	"0x556fa3441420" -> "0x556fa34413a0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441420" -> "0x556fa34413e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34435a0" -> "0x556fa3443560";
-	edge [color = "#19A302"] ;
-	"0x556fa3443560" -> "0x556fa3441820";
-	edge [color = "#19A302"] ;
-	"0x556fa3441820" -> "0x556fa3441b20";
-	edge [color = "#19A302"] ;
-	"0x556fa3441b20" -> "0x556fa3443520";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441b20" -> "0x556fa34434e0";
-	edge [color = "#19A302"] ;
-	"0x556fa34434e0" -> "0x556fa3441be0";
-	edge [color = "#19A302"] ;
-	"0x556fa3441be0" -> "0x556fa3441b60";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441be0" -> "0x556fa3441ba0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34434e0" -> "0x556fa34434a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34434a0" -> "0x556fa3442860";
-	edge [color = "#19A302"] ;
-	"0x556fa3442860" -> "0x556fa3443460";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442860" -> "0x556fa3443420";
-	edge [color = "#19A302"] ;
-	"0x556fa3443420" -> "0x556fa3442920";
-	edge [color = "#19A302"] ;
-	"0x556fa3442920" -> "0x556fa34428a0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442920" -> "0x556fa34428e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3443420" -> "0x556fa34433e0";
-	edge [color = "#19A302"] ;
-	"0x556fa34433e0" -> "0x556fa34430a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34430a0" -> "0x556fa3443220";
-	edge [color = "#19A302"] ;
-	"0x556fa3443220" -> "0x556fa34433a0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3443220" -> "0x556fa3443360";
-	edge [color = "#19A302"] ;
-	"0x556fa3443360" -> "0x556fa3443260";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3443360" -> "0x556fa3443320";
-	edge [color = "#19A302"] ;
-	"0x556fa3443320" -> "0x556fa34432a0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3443320" -> "0x556fa34432e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34430a0" -> "0x556fa34431e0";
-	edge [color = "#19A302"] ;
-	"0x556fa34431e0" -> "0x556fa34430e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34431e0" -> "0x556fa34431a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34431a0" -> "0x556fa3443120";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34431a0" -> "0x556fa3443160";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34433e0" -> "0x556fa3442960";
-	edge [color = "#19A302"] ;
-	"0x556fa3442960" -> "0x556fa3442b60";
-	edge [color = "#19A302"] ;
-	"0x556fa3442b60" -> "0x556fa3442ce0";
-	edge [color = "#19A302"] ;
-	"0x556fa3442ce0" -> "0x556fa3442ee0";
-	edge [color = "#19A302"] ;
-	"0x556fa3442ee0" -> "0x556fa3443060";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442ee0" -> "0x556fa3443020";
-	edge [color = "#19A302"] ;
-	"0x556fa3443020" -> "0x556fa3442f20";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3443020" -> "0x556fa3442fe0";
-	edge [color = "#19A302"] ;
-	"0x556fa3442fe0" -> "0x556fa3442f60";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442fe0" -> "0x556fa3442fa0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442ce0" -> "0x556fa3442ea0";
-	edge [color = "#19A302"] ;
-	"0x556fa3442ea0" -> "0x556fa3442d20";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442ea0" -> "0x556fa3442e60";
-	edge [color = "#19A302"] ;
-	"0x556fa3442e60" -> "0x556fa3442d60";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442e60" -> "0x556fa3442e20";
-	edge [color = "#19A302"] ;
-	"0x556fa3442e20" -> "0x556fa3442da0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442e20" -> "0x556fa3442de0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442b60" -> "0x556fa3442ca0";
-	edge [color = "#19A302"] ;
-	"0x556fa3442ca0" -> "0x556fa3442ba0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442ca0" -> "0x556fa3442c60";
-	edge [color = "#19A302"] ;
-	"0x556fa3442c60" -> "0x556fa3442be0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442c60" -> "0x556fa3442c20";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442960" -> "0x556fa3442b20";
-	edge [color = "#19A302"] ;
-	"0x556fa3442b20" -> "0x556fa34429a0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442b20" -> "0x556fa3442ae0";
-	edge [color = "#19A302"] ;
-	"0x556fa3442ae0" -> "0x556fa34429e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442ae0" -> "0x556fa3442aa0";
-	edge [color = "#19A302"] ;
-	"0x556fa3442aa0" -> "0x556fa3442a20";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442aa0" -> "0x556fa3442a60";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34434a0" -> "0x556fa3441c20";
-	edge [color = "#19A302"] ;
-	"0x556fa3441c20" -> "0x556fa3441da0";
-	edge [color = "#19A302"] ;
-	"0x556fa3441da0" -> "0x556fa3441f20";
-	edge [color = "#19A302"] ;
-	"0x556fa3441f20" -> "0x556fa34420a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34420a0" -> "0x556fa3442220";
-	edge [color = "#19A302"] ;
-	"0x556fa3442220" -> "0x556fa34423a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34423a0" -> "0x556fa3442520";
-	edge [color = "#19A302"] ;
-	"0x556fa3442520" -> "0x556fa34426a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34426a0" -> "0x556fa3442820";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34426a0" -> "0x556fa34427e0";
-	edge [color = "#19A302"] ;
-	"0x556fa34427e0" -> "0x556fa34426e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34427e0" -> "0x556fa34427a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34427a0" -> "0x556fa3442720";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34427a0" -> "0x556fa3442760";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442520" -> "0x556fa3442660";
-	edge [color = "#19A302"] ;
-	"0x556fa3442660" -> "0x556fa3442560";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442660" -> "0x556fa3442620";
-	edge [color = "#19A302"] ;
-	"0x556fa3442620" -> "0x556fa34425a0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442620" -> "0x556fa34425e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34423a0" -> "0x556fa34424e0";
-	edge [color = "#19A302"] ;
-	"0x556fa34424e0" -> "0x556fa34423e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34424e0" -> "0x556fa34424a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34424a0" -> "0x556fa3442420";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34424a0" -> "0x556fa3442460";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442220" -> "0x556fa3442360";
-	edge [color = "#19A302"] ;
-	"0x556fa3442360" -> "0x556fa3442260";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442360" -> "0x556fa3442320";
-	edge [color = "#19A302"] ;
-	"0x556fa3442320" -> "0x556fa34422a0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442320" -> "0x556fa34422e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34420a0" -> "0x556fa34421e0";
-	edge [color = "#19A302"] ;
-	"0x556fa34421e0" -> "0x556fa34420e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34421e0" -> "0x556fa34421a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34421a0" -> "0x556fa3442120";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34421a0" -> "0x556fa3442160";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441f20" -> "0x556fa3442060";
-	edge [color = "#19A302"] ;
-	"0x556fa3442060" -> "0x556fa3441f60";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442060" -> "0x556fa3442020";
-	edge [color = "#19A302"] ;
-	"0x556fa3442020" -> "0x556fa3441fa0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3442020" -> "0x556fa3441fe0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441da0" -> "0x556fa3441ee0";
-	edge [color = "#19A302"] ;
-	"0x556fa3441ee0" -> "0x556fa3441de0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441ee0" -> "0x556fa3441ea0";
-	edge [color = "#19A302"] ;
-	"0x556fa3441ea0" -> "0x556fa3441e20";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441ea0" -> "0x556fa3441e60";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441c20" -> "0x556fa3441d60";
-	edge [color = "#19A302"] ;
-	"0x556fa3441d60" -> "0x556fa3441c60";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3441d60" -> "0x556fa3441d20";
+	"0x56099c72c5d0" -> "0x56099c72cf90";
 	edge [color = "#19A302"] ;
-	"0x556fa3441d20" -> "0x556fa3441ca0";
+	"0x56099c72cf90" -> "0x56099c72c650";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441d20" -> "0x556fa3441ce0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441820" -> "0x556fa3441ae0";
+	"0x56099c72c650" -> "0x56099c72c6d0";
 	edge [color = "#19A302"] ;
-	"0x556fa3441ae0" -> "0x556fa3441860";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3441ae0" -> "0x556fa3441aa0";
-	edge [color = "#19A302"] ;
-	"0x556fa3441aa0" -> "0x556fa3441920";
+	"0x56099c72c650" -> "0x56099c72c690";
 	edge [color = "#19A302"] ;
-	"0x556fa3441920" -> "0x556fa34418a0";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3441920" -> "0x556fa34418e0";
+	"0x56099c72cf90" -> "0x56099c72c610";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441aa0" -> "0x556fa3441a60";
-	edge [color = "#19A302"] ;
-	"0x556fa3441a60" -> "0x556fa34419e0";
+	"0x56099c72c610" -> "0x56099c72c710";
 	edge [color = "#19A302"] ;
-	"0x556fa34419e0" -> "0x556fa3441960";
+	"0x56099c72c710" -> "0x56099c72c7d0";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34419e0" -> "0x556fa34419a0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441a60" -> "0x556fa3441a20";
+	"0x56099c72c7d0" -> "0x56099c72cf50";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3443560" -> "0x556fa3441460";
+	"0x56099c72c7d0" -> "0x56099c72cf10";
 	edge [color = "#19A302"] ;
-	"0x556fa3441460" -> "0x556fa34416e0";
+	"0x56099c72cf10" -> "0x56099c72c890";
 	edge [color = "#19A302"] ;
-	"0x556fa34416e0" -> "0x556fa34417e0";
+	"0x56099c72c890" -> "0x56099c72c810";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34416e0" -> "0x556fa34417a0";
+	"0x56099c72c890" -> "0x56099c72c850";
 	edge [color = "#19A302"] ;
-	"0x556fa34417a0" -> "0x556fa3441720";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34417a0" -> "0x556fa3441760";
+	"0x56099c72cf10" -> "0x56099c72ced0";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441460" -> "0x556fa34416a0";
+	"0x56099c72ced0" -> "0x56099c72cdd0";
 	edge [color = "#19A302"] ;
-	"0x556fa34416a0" -> "0x556fa34414a0";
+	"0x56099c72cdd0" -> "0x56099c72ce90";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34416a0" -> "0x556fa3441660";
-	edge [color = "#19A302"] ;
-	"0x556fa3441660" -> "0x556fa3441520";
-	edge [color = "#19A302"] ;
-	"0x556fa3441520" -> "0x556fa34415a0";
+	"0x56099c72cdd0" -> "0x56099c72ce50";
 	edge [color = "#19A302"] ;
-	"0x556fa34415a0" -> "0x556fa3441620";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34415a0" -> "0x556fa34415e0";
+	"0x56099c72ce50" -> "0x56099c72ce10";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3441520" -> "0x556fa3441560";
+	"0x56099c72ced0" -> "0x56099c72c8d0";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441660" -> "0x556fa34414e0";
+	"0x56099c72c8d0" -> "0x56099c72cb50";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34412a0" -> "0x556fa3441320";
+	"0x56099c72cb50" -> "0x56099c72ccd0";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3441320" -> "0x556fa34412e0";
+	"0x56099c72ccd0" -> "0x56099c72cd90";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34411e0" -> "0x556fa3441260";
+	"0x56099c72ccd0" -> "0x56099c72cd50";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3441260" -> "0x556fa3441220";
+	"0x56099c72cd50" -> "0x56099c72cd10";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3441120" -> "0x556fa34411a0";
+	"0x56099c72cb50" -> "0x56099c72cc90";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34411a0" -> "0x556fa3441160";
+	"0x56099c72cc90" -> "0x56099c72cb90";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3441060" -> "0x556fa34410e0";
+	"0x56099c72cc90" -> "0x56099c72cc50";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34410e0" -> "0x556fa34410a0";
+	"0x56099c72cc50" -> "0x56099c72cbd0";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34403e0" -> "0x556fa3440de0";
-	edge [color = "#19A302"] ;
-	"0x556fa3440de0" -> "0x556fa3440460";
+	"0x56099c72cc50" -> "0x56099c72cc10";
 	edge [color = "#19A302"] ;
-	"0x556fa3440460" -> "0x556fa34404e0";
-	edge [color = "#19A302"] ;
-	"0x556fa34404e0" -> "0x556fa3440560";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34404e0" -> "0x556fa3440520";
+	"0x56099c72c8d0" -> "0x56099c72cb10";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440460" -> "0x556fa34404a0";
+	"0x56099c72cb10" -> "0x56099c72c910";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440de0" -> "0x556fa3440420";
+	"0x56099c72cb10" -> "0x56099c72cad0";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440420" -> "0x556fa34405a0";
+	"0x56099c72cad0" -> "0x56099c72c990";
 	edge [color = "#19A302"] ;
-	"0x556fa34405a0" -> "0x556fa3440da0";
+	"0x56099c72c990" -> "0x56099c72ca90";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34405a0" -> "0x556fa3440d60";
-	edge [color = "#19A302"] ;
-	"0x556fa3440d60" -> "0x556fa3440660";
+	"0x56099c72c990" -> "0x56099c72ca50";
 	edge [color = "#19A302"] ;
-	"0x556fa3440660" -> "0x556fa34405e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440660" -> "0x556fa3440620";
+	"0x56099c72ca50" -> "0x56099c72c9d0";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440d60" -> "0x556fa3440d20";
+	"0x56099c72ca50" -> "0x56099c72ca10";
 	edge [color = "#19A302"] ;
-	"0x556fa3440d20" -> "0x556fa3440960";
-	edge [color = "#19A302"] ;
-	"0x556fa3440960" -> "0x556fa3440b20";
-	edge [color = "#19A302"] ;
-	"0x556fa3440b20" -> "0x556fa3440ce0";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440b20" -> "0x556fa3440ca0";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440ca0" -> "0x556fa3440c60";
+	"0x56099c72cad0" -> "0x56099c72c950";
 	edge [color = "#19A302"] ;
-	"0x556fa3440c60" -> "0x556fa3440b60";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440c60" -> "0x556fa3440c20";
-	edge [color = "#19A302"] ;
-	"0x556fa3440c20" -> "0x556fa3440ba0";
+	"0x56099c72c710" -> "0x56099c72c790";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440c20" -> "0x556fa3440be0";
+	"0x56099c72c790" -> "0x56099c72c750";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440960" -> "0x556fa3440ae0";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440ae0" -> "0x556fa3440aa0";
+	"0x56099c72bf10" -> "0x56099c72c590";
 	edge [color = "#19A302"] ;
-	"0x556fa3440aa0" -> "0x556fa34409a0";
+	"0x56099c72c590" -> "0x56099c72bf90";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440aa0" -> "0x556fa3440a60";
+	"0x56099c72c590" -> "0x56099c72bf50";
 	edge [color = "#19A302"] ;
-	"0x556fa3440a60" -> "0x556fa34409e0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440a60" -> "0x556fa3440a20";
+	"0x56099c72bf50" -> "0x56099c72bfd0";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440d20" -> "0x556fa34406a0";
+	"0x56099c72bfd0" -> "0x56099c72c090";
 	edge [color = "#19A302"] ;
-	"0x556fa34406a0" -> "0x556fa34407e0";
+	"0x56099c72c090" -> "0x56099c72c150";
 	edge [color = "#19A302"] ;
-	"0x556fa34407e0" -> "0x556fa3440920";
+	"0x56099c72c150" -> "0x56099c72c210";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34407e0" -> "0x556fa34408e0";
+	"0x56099c72c210" -> "0x56099c72c410";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34408e0" -> "0x556fa34408a0";
+	"0x56099c72c410" -> "0x56099c72c4d0";
 	edge [color = "#19A302"] ;
-	"0x556fa34408a0" -> "0x556fa3440820";
+	"0x56099c72c4d0" -> "0x56099c72c550";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34408a0" -> "0x556fa3440860";
+	"0x56099c72c4d0" -> "0x56099c72c510";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34406a0" -> "0x556fa34407a0";
-	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34407a0" -> "0x556fa3440760";
-	edge [color = "#19A302"] ;
-	"0x556fa3440760" -> "0x556fa34406e0";
+	"0x56099c72c410" -> "0x56099c72c490";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa3440760" -> "0x556fa3440720";
+	"0x56099c72c490" -> "0x56099c72c450";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa343fee0" -> "0x556fa34403a0";
+	"0x56099c72c210" -> "0x56099c72c3d0";
 	edge [color = "#19A302"] ;
-	"0x556fa34403a0" -> "0x556fa343ff60";
+	"0x56099c72c3d0" -> "0x56099c72c250";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34403a0" -> "0x556fa343ff20";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa343ff20" -> "0x556fa343ffa0";
+	"0x56099c72c3d0" -> "0x56099c72c390";
 	edge [color = "#19A302"] ;
-	"0x556fa343ffa0" -> "0x556fa3440060";
+	"0x56099c72c390" -> "0x56099c72c2d0";
 	edge [color = "#19A302"] ;
-	"0x556fa3440060" -> "0x556fa34402e0";
+	"0x56099c72c2d0" -> "0x56099c72c350";
 	edge [color = "#19A302"] ;
-	"0x556fa34402e0" -> "0x556fa3440360";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34402e0" -> "0x556fa3440320";
+	"0x56099c72c2d0" -> "0x56099c72c310";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440060" -> "0x556fa34402a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34402a0" -> "0x556fa34400a0";
+	"0x56099c72c390" -> "0x56099c72c290";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa34402a0" -> "0x556fa3440260";
+	"0x56099c72c150" -> "0x56099c72c1d0";
 	edge [color = "#19A302"] ;
-	"0x556fa3440260" -> "0x556fa3440120";
-	edge [color = "#19A302"] ;
-	"0x556fa3440120" -> "0x556fa34401a0";
-	edge [color = "#19A302"] ;
-	"0x556fa34401a0" -> "0x556fa3440220";
-	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	edge [color = "#C00303"] ;
-	"0x556fa34401a0" -> "0x556fa34401e0";
+	"0x56099c72c1d0" -> "0x56099c72c190";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440120" -> "0x556fa3440160";
+	"0x56099c72c090" -> "0x56099c72c110";
 	edge [color = "#19A302"] ;
-	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440260" -> "0x556fa34400e0";
+	"0x56099c72c110" -> "0x56099c72c0d0";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa343ffa0" -> "0x556fa3440020";
+	"0x56099c72bfd0" -> "0x56099c72c050";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
-	"0x556fa3440020" -> "0x556fa343ffe0";
+	"0x56099c72c050" -> "0x56099c72c010";
 	edge [color = "#19A302"] ;
 	edge [color = "#C00303"] ;
 info [label = "{Size: 1001 | Error: OK}"]}
