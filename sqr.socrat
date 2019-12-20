@@ -1,6 +1,6 @@
-{
+indeed,
 
-	Theurgy unmoved_mover { } {
+	Theurgy unmoved_mover indeed, hence. indeed,
 		Idea a
 		Idea b
 		Idea c
@@ -9,25 +9,25 @@
 		Read b
 		Read c
 
-		Let a Ritual solve_square { a b c }
+		Let a Ritual solve_square indeed, a b c hence.
 		Thanks 
-	}
+	hence.
 
 
 
-	Theurgy solve_square { a b c } {
+	Theurgy solve_square indeed, a b c hence. indeed,
 
 		Idea d
 		Idea tmp
 		Idea x1
 		Idea x2 
 
-		Criterion a eq 0 {
-			Let x1 Ritual solve_linear { b c }			
+		Criterion a eq 0 indeed,
+			Let x1 Ritual solve_linear indeed, b c hence.			
 
 			Catharsis 0
 
-		} {
+		hence. indeed,
 
 			Let d b times b
 			Let tmp a times c
@@ -35,7 +35,7 @@
 			Let d d without 4 times tmp 
 
 
-			Criterion d more 0 {
+			Criterion d more 0 indeed,
 
 				root d 	
 
@@ -51,29 +51,30 @@
 
 				Catharsis 0
 
-			} { 
-				Criterion d eq 0 {
+			hence. indeed, 
+				Criterion d eq 0 indeed,
 
 					Let a a with a 
 					Let x1 b split a
 					Write 0 without x1 
 
 					Catharsis 0 
-				} {
+				hence. indeed,
 					Write 0 without 777
 					Catharsis 0
-				}
-			}
-		}
-	}
+				hence.
+			hence.
+		hence.
+	hence.
 
-	Theurgy solve_linear { b c } {
-		Criterion b eq 0 {
+	Theurgy solve_linear indeed, b c hence. indeed,
+		Criterion b eq 0 indeed,
 			Write 666
-			Catharsis 0
-		} {
+			Catharsis 0 
+			hence.
+		hence. indeed,
 			Write 0 without c split b
 			Catharsis 0 
-		}
-	}
-}
+		hence.
+	hence.
+hence.
